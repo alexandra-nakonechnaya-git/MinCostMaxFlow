@@ -1,0 +1,5 @@
+Value of left cut: |Q|.h = 9.0
+Value of right cut: |U|.l = 9.0
+Total flow sent: 9.0
+Min cost: 22.0
+Min cost per flow: 2.4444444444444446
