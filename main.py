@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Created on Mon Apr 15 21:34:17 2019
 
-@author: A.Nakonechny
+@author: A.Nakonechnaya
 """
 
 import sys
@@ -33,14 +32,7 @@ def main():
     # Реализация MCMF требует, чтобы мы использовали от 0 до n для меток узлов, чтобы
     # удобно было использовать матрицы для весов, потоков и т. д.
     # При выводе ответа получим инверсию меток узлов.
-    # When debugging, keep in mind that from this point on, the node labels are
-    # the mapped ones, not the actual ones in the data.csv. One way around this
-    # would be to map the node labels yourself in prior and comment the next
-    # few lines of code, and also get rid of the inverse mapping at the end
-    # При отладке происходит то, что с этого момента метки узлов
-    # сопоставленные, а не фактические в data.csv. Один из способов обойти это
-    # будет отображать метки узла в предыдущем и комментировать следующие
-    # несколько строк кода, а также избавиться от инверсии в конце
+    
     mapper = Mapper(1)
 
     edgesNPZ_NBmapped = [(mapper.mapQ(e[0]), mapper.mapP(e[1]), e[2])
