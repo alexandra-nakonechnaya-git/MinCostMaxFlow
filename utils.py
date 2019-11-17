@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Created on Sun Apr 14 17:04:43 2019
 
-@author: YuriNakonechny
+@author: A.Nakonechnaya
 """
 # import networkx as nx
 # import matplotlib.pyplot as plt

@@ -1,4 +1,9 @@
-#!/usr/bin/env python3
+"""
+Created on Mon Apr 15 21:34:17 2019
+
+@author: A.Nakonechnaya
+"""
+
 import collections
 import csv
 import sys
